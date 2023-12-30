@@ -1,8 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@400&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -24,4 +27,74 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+} */
+body::-webkit-scrollbar {
+  display: block;
+  width: 8px;
+  background: #063bcc;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #fff;
+
+  border-radius: 50px;
+}
+
+/* *{
+  font-family: shippori;
+} */
+/* #scroller {
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  position: absolute;
+  z-index: 10;
+  margin-bottom: 10%;
+}
+
+#scroller::-webkit-scrollbar {
+  display: none;
+}
+
+#scrollerin {
+  display: inline-block;
+  white-space: nowrap;
+  animation-name: scroll;
+  animation-duration: 30s;
+  animation-timing-function:linear;
+  animation-iteration-count: infinite;
+}
+
+#scroller h4 {
+  display: inline-block;
+  font-size: 120px;
+  font-weight: 900;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-right: 20px;
+  color: transparent;
+  -webkit-text-stroke: 2px rgb(255, 255, 255);
+  transition: all linear 0.3s;
+}
+
+#scroller h4:hover {
+  color: rgb(50, 63, 205);
+  -webkit-text-stroke: 2px hsl(254, 100%, 59%);
+
+}
+@keyframes scrollAnimation {
+  100% {
+    transform: translateX(100%);
+  }
+  0% {
+    transform: translateX(0%);
+  }
+} */
+
+/* #scrollAnimation {
+  animation: scrollAnimation 10s linear infinite;
+  display: inline-block;
+  white-space: nowrap;
+} */
+
+.thunder{
+  font-family: Varino;
 }
