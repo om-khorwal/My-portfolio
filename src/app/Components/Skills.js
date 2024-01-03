@@ -1,77 +1,71 @@
 import React from 'react'
 import Marquee from "react-fast-marquee";
-
 import { IoStarOutline } from "react-icons/io5";
+import { FaLocationArrow } from "react-icons/fa6";
+import { FaHome } from "react-icons/fa";
+import { LiaLaptopCodeSolid } from "react-icons/lia";
+import { GrProjects } from "react-icons/gr";
+import { FcAbout } from "react-icons/fc";
 
 const Skills = () => {
   return (
     <>
-      <div className=' relative w-full h-screen scroll-smooth bg-[#0e0d0f]   '>
-        <div className='absolute top-[5%]'>
-        <Marquee play speed={100} loop={0} pauseOnHover className='bg-[#0e0d0f] '>
-          <div id= 'scrollAnimation' className=' text-8xl h-28 flex '>
-          <h4 className='text-white '>HELLO VISITOR , WELCOME TO MY PORTFOLIO. YOU WILL FIND ALL MY SKILLS PROJECTS AND EXPERIENCE BELOW. THANKYOU .</h4>
-          </div>
-        </Marquee>
-        </div>
-        <div className=' absolute top-[35%] w-full h-16 justify-center items-center flex z-10' >
-          <h2 className='flex text-white text-5xl font-bold w-52 h-full items-center justify-center hover:bg-white hover:text-black rounded-md '>SKILLS</h2>
+      <div className=' relative w-full h-screen scroll-smooth   '>
+        {/* <img className="absolute w-20 h-20 z-30 right-1 "
+          alt=""
+          src="/dot.png"
+        /> */}
+       
+
+        <div className='absolute w-[10%] h-[20%] bg-[#8894a581] top-[25%] left-[12%] rounded-xl flex justify-center hover:scale-110 duration-300 '>
+          <img
+          className='absolute h-20 w-22 my-2' 
+          src='/html.png'/>
+          <h1 className='absolute bottom-[15%] text-xl font-semibold text-white'>HTML</h1>
         </div>
 
-        <div className=' absolute flex w-full top-[55%] scroll-smooth bg-[#0e0d0f] justify-around items-center   '>
-        <div className=' flex w-60 h-60 rounded-full  bg-transparent shadow-inner shadow-blue-800 border-2 border-blue-800 justify-center items-center hover:shadow-2xl hover:shadow-blue-500 duration-500 delay-175 hover:scale-110 hover:bg-blue-600 delay-200'>
-          <h3 className='relative text-white text-5xl font-extrabold justify-center text-center'>React
-          <div className='flex'>
-          <IoStarOutline  className='text-yellow-300 text-5xl '/>
-          <IoStarOutline  className='text-yellow-300 text-5xl'/>
-          <IoStarOutline  className='text-yellow-300 text-5xl'/>
-          </div>
-          </h3>
+        <div className='absolute w-[10%] h-[20%] bg-[#8894a581] top-[25%] left-[24%] rounded-xl flex justify-center '>
+          <img
+          className='absolute h-20 w-22 my-2 ' 
+          src='/CSS.png'/>
+          <h1 className='absolute bottom-[15%] text-xl font-semibold text-white'>CSS</h1>
         </div>
 
-        <div className=' flex w-60 h-60 rounded-full  bg-transparent  border-2 border-blue-800 justify-center items-center hover:shadow-2xl hover:shadow-blue-500 duration-500 delay-175 hover:scale-110 hover:bg-blue-600 delay-200'>
-          <h3 className='relative text-white text-5xl font-extrabold justify-center text-center'>Html
-          <div className='flex'>
-          <IoStarOutline  className='text-yellow-300 text-5xl '/>
-          <IoStarOutline  className='text-yellow-300 text-5xl'/>
-          <IoStarOutline  className='text-yellow-300 text-5xl'/>
-          <IoStarOutline  className='text-yellow-300 text-5xl'/>
-          </div>
-          </h3>
+        <div className='absolute w-[10%] h-[20%] bg-[#8894a581] top-[25%] left-[36%] rounded-xl flex justify-center '>
+          <img
+          className='absolute h-20 w-22 my-2 ' 
+          src='/JS.png'/>
+          <h1 className='absolute bottom-[15%] text-xl font-semibold text-white'>JavaScrpt</h1>
         </div>
 
-        <div className=' flex w-60 h-60 rounded-full  bg-transparent  border-2 border-blue-800 justify-center items-center hover:shadow-2xl hover:shadow-blue-500 duration-500 delay-175 hover:scale-110 hover:bg-blue-600 delay-200'>
-          <h3 className='relative text-white text-5xl font-extrabold justify-center text-center'>Css
-          <div className='flex'>
-          <IoStarOutline  className='text-yellow-300 text-5xl '/>
-          <IoStarOutline  className='text-yellow-300 text-5xl'/>
-          <IoStarOutline  className='text-yellow-300 text-5xl'/>
-          <IoStarOutline  className='text-yellow-300 text-5xl'/>
-          </div>
-          </h3>
+        <div className='absolute w-[10%] h-[20%] bg-[#8894a581] top-[50%] left-[12%] rounded-xl flex justify-center '>
+          <img
+          className='absolute h-20 w-22 my-2' 
+          src='/React.png'/>
+          <h1 className='absolute bottom-[15%] text-xl font-semibold text-white'>React</h1>
         </div>
 
-        <div className=' flex w-60 h-60 rounded-full  bg-transparent  border-2 border-blue-800 justify-center items-center hover:shadow-2xl hover:shadow-blue-500 duration-500 delay-175 hover:scale-110 hover:bg-blue-600 delay-200'>
-          <h3 className='relative text-white text-5xl font-extrabold justify-center text-center'>JS
-          <div className='flex'>
-          <IoStarOutline  className='text-yellow-300 text-5xl '/>
-          <IoStarOutline  className='text-yellow-300 text-5xl'/>
-          <IoStarOutline  className='text-yellow-300 text-5xl'/>
-          </div>
-          </h3>
+        <div className='absolute w-[10%] h-[20%] bg-[#8894a581] top-[50%] left-[24%] rounded-xl flex justify-center '>
+          <img
+          className='absolute h-20 w-22 my-2' 
+          src='/Figma.png'/>
+          <h1 className='absolute bottom-[15%] text-xl font-semibold text-white'>Figma</h1>
         </div>
 
-        <div className=' flex w-60 h-60 rounded-full  bg-transparent  border-2 border-blue-800 justify-center items-center hover:shadow-2xl hover:shadow-blue-500 duration-500 delay-175 hover:scale-110 hover:bg-blue-600 delay-200'>
-          <h3 className='relative text-white text-5xl font-extrabold justify-center text-center'>Tailwind
-          <div className='flex'>
-          <IoStarOutline  className='text-yellow-300 text-5xl '/>
-          <IoStarOutline  className='text-yellow-300 text-5xl'/>
-          <IoStarOutline  className='text-yellow-300 text-5xl'/>
-          <IoStarOutline  className='text-yellow-300 text-5xl'/>
-          </div>
-          </h3>
+        <div className='absolute w-[10%] h-[20%] bg-[#8894a581] top-[50%] left-[36%] rounded-xl flex justify-center '>
+          <img
+          className='absolute h-16 w-22 my-2' 
+          src='/Tailwind.png'/>
+          <h1 className='absolute bottom-[15%] text-xl font-semibold text-white'>Tailwind</h1>
         </div>
 
+        <div className=' relative w-1/4 h-1/2 m-2 left-[60%] top-24 justify-center text-center '>
+        <img
+          className='' 
+          src='/Settings.png'/>
+        <h4 className='text-white text-xl'>
+          sdfnnsdfnsdkjfnsdfnsdfndlfdlnlfds
+        </h4>
         </div>
 
       </div>

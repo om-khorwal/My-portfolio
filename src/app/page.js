@@ -1,6 +1,6 @@
 "use client"
 import React, { useLayoutEffect, useRef } from 'react'
-import Main from './Components/Main'
+import Footer from './Components/Footer'
 import gsap from 'gsap'
 import Skills from './Components/Skills'
 import About from './Components/About'
@@ -26,12 +26,16 @@ function page() {
 //   })
   return (
     <>
+    <div className='bg-gradient-to-b from-[#547DB4] to-black relative h-fit w-full'>
+
     <Heroslide/>
-   
-    {/* <Main/>
     <Skills/>
     <Projects/>
-    <About/> */}
+    <About/>
+    <Footer/>
+    </div>
+    
+    
     </>
   )
 }

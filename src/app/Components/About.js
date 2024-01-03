@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
     return (
-        <div className=' relative flex text-3xl bg-[#0e0d0f] text-white w-full h-screen justify-around '>
+        <div className=' relative flex text-3xl text-white w-full h-screen justify-around '>
             <div className=' absolute flex justify-around w-full h-[80%] top-[10%]'>
                 <h2 className='  text-5xl justify-center items-center  text-center '>About
                     <div>
@@ -11,7 +11,7 @@ const About = () => {
                         </h4>
                     </div>
                 </h2>
-                <div className='absolute w-1 h-full bg-white'></div>
+                <div className='absolute w-1 h-full bg-white shadow-xl shadow-white'></div>
                 <h2 className=' text-5xl justify-center items-center  text-center '>Contact
                     <div className=''>
                         <h4 className='text-xl w-full text-center mt-10 '>

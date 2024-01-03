@@ -1,20 +1,28 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { FaGooglePlus } from "react-icons/fa";
 import { FaLocationArrow } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
+import { FaHome } from "react-icons/fa";
+import { LiaLaptopCodeSolid } from "react-icons/lia";
+import { GrProjects } from "react-icons/gr";
+import { FcAbout } from "react-icons/fc";
+
 
 
 const Heroslide = () => {
+
+ 
   return (
+
     <>
 
-      <div className='bg-gradient-to-b from-[#003680] to-black relative h-screen w-full' >
-        <img className="absolute w-[80%] h-[80%] left-[18%] top-[12%] object-cover"
+      <div className=' relative h-screen w-full' >
+        <img className="absolute w-[50%] h-[50%] left-[30%] top-[8.5%] object-cover"
         alt=""
         src="/img.png"
         />
-        <img className="absolute w-20 h-20 z-30 right-1 "
+        <img className="fixed w-20 h-20 z-30 right-1 "
         alt=""
         src="/dot.png"
         />
@@ -33,47 +41,35 @@ const Heroslide = () => {
         </div> */}
 
 
-        <div className='absolute z-10  text-black font-bold bg-[#c1e8ff] items-center justify-center gap-[5%] w-28 h-screen uppercase shadow-lg shadow-gray-700'>
+        <div className=' z-10 fixed text-black font-bold bg-gradient-to-b from-[#000000] to-[#0652c3] items-center justify-center  w-20 h-[35%] top-[25%] m-10 rounded-full uppercase shadow-xl shadow-white'>
 
-          {/* <TiThMenuOutline className='left-[5%]  absolute block '/>
-        <div className='relative justify-center text-lg flex le gap-[30%]'>
-        <h3 className='transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-125'>Home</h3>
-        <h3 className='transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-125'>Contact</h3>
-        <h3 className='transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-125'>About</h3>
-        <h3 className='transition ease-in-out delay-100 hover:-translate-y-1 hover:scale-125'>Skills</h3>
-        </div> */}
-
-          {/* <h2 className=" thunder z-20 absolute  h-[5%] w-[13%] top-[2%] left-[2.26%]  text-3xl mt-4  font-semibold text-center inline-block [text-shadow:_0_5px_0_rgb(0_0_0_/_80%)] ">
-            THUNDER
-          </h2> */}
-
-          <div className="absolute  flex flex-col h-screen w-full gap-y-10 justify-center items-center  ">
-            <h2 className=" text-lg font-medium hover:-translate-y-1 hover:scale-125 duration-200 hover:font-bold">
-              Home
+          <div className="absolute text-white h-full gap-5 w-full flex flex-col justify-center items-center  ">
+            <h2 className=" text-3xl font-medium hover:-translate-y-1 hover:scale-125 duration-200 hover:font-bold">
+              <FaHome/>
             </h2>
-            <h2 className=" text-lg font-medium hover:-translate-y-1 hover:scale-125 duration-200 hover:font-bold">
-              projects
+            <h2 className=" text-3xl font-medium hover:-translate-y-1 hover:scale-125 duration-200 hover:font-bold">
+              <GrProjects/>
             </h2>
-            <h2 className=" text-lg font-medium hover:-translate-y-1 hover:scale-125 duration-200 hover:font-bold">
-              Skills
+            <h2 className=" text-3xl font-medium hover:-translate-y-1 hover:scale-125 duration-200 hover:font-bold">
+              <LiaLaptopCodeSolid/>
             </h2>
-            <h2 className=" text-lg font-medium hover:-translate-y-1 hover:scale-125 duration-200 hover:font-bold">
-              about
+            <h2 className=" text-3xl font-medium hover:-translate-y-1 hover:scale-125 duration-200 hover:font-bold">
+              <FcAbout/>
             </h2>
           </div>
         </div>
-        <div className=' z-10 w-24 h-24 bg-transparent absolute top-[85%] left-[90%] rounded-full opacity-100 shadow-inner shadow-white hover:bg-gray-200 duration-500 justify-center items-center'>
-          <FaLocationArrow className='w-[70%] h-[80%] absolute top-3 left-3 text-gray-900 rotate-45 hover:shadow-inner shadow-white' />
+        <div className=' z-10 w-24 h-24 bg-transparent fixed top-[85%] left-[90%] rounded-full opacity-100 shadow-inner shadow-white hover:bg-white duration-500 justify-center items-center'>
+          <FaLocationArrow className='w-[70%] h-[80%] absolute top-3 left-3 text-blue-400 rotate-45 ' />
         </div>
 
       
-        <div className="text-white absolute px-[18%] h-[15.3%] w-[100%] top-[35%] font-semibold  inline-block [text-shadow-[10px_4px_5px_rgba(0,0,0.25)]  ">
+        <div id="head" className= " text-white absolute px-[18%] h-[15.3%] w-[100%] top-[35%] font-semibold  inline-block [text-shadow-[10px_4px_5px_rgba(0,0,0.25)] opacity-1">
           <p className=" text-[3rem]  drop-shadow-[0px_10px_0px_rgba(0,0,0)]">Hi,</p>
           <div className='flex gap-3'>
           <p className=" text-[3rem]  drop-shadow-[0px_10px_0px_rgba(0,0,0)]">I'm</p>
-          <p className=" text-[3rem] text-[#00a3ff] drop-shadow-[0px_10px_0px_rgba(0,0,0)]">Om</p>
+          <p className=" text-[3rem] text-[#00a3ff] drop-shadow-[0px_10px_0px_rgba(0,0,0)] hover:scale-150">Om</p>
           </div>
-          <p className=" text-[5rem] drop-shadow-[5px_10px_2px_rgba(0,0,0)] ">FRONT-END DEVELOPER</p>
+          <p className=" text-[5rem] drop-shadow-[5px_10px_2px_rgba(0,0,0)] ">FRONT-END DEVELOPER</p> 
         </div>
 
         <div className="absolute flex h-[8%] w-[10%] z-20 justify-center items-center top-[70%] left-[70%] bg-white shadow-[10px_4px_5px_rgba(0,0,0.25)] hover:bg-[#4f7eff] duration-300" >

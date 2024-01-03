@@ -79,8 +79,8 @@ body::-webkit-scrollbar-thumb {
   color: rgb(50, 63, 205);
   -webkit-text-stroke: 2px hsl(254, 100%, 59%);
 
-}
-@keyframes scrollAnimation {
+} */
+/* @keyframes head {
   100% {
     transform: translateX(100%);
   }
@@ -97,4 +97,13 @@ body::-webkit-scrollbar-thumb {
 
 .thunder{
   font-family: Varino;
+}
+
+*body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  background: linear-gradient(to bottom, #547DB4, #0000); /* Replace with your desired gradient colors */
+  /* Additional background styles */
 }
