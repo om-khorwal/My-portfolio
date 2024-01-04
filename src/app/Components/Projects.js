@@ -3,7 +3,7 @@ import React from 'react'
 const Projects = () => {
     return (
         <>
-            <div className=' flex relative h-screen w-full text-white justify-end'>
+            <div id='projects' className=' flex relative h-screen w-full text-white justify-end'>
                 <img
                 className='absolute right-1/2 -rotate-12 hover:rotate-180 duration-1000'
                 src='/triangle.png'>

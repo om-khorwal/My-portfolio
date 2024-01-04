@@ -10,7 +10,7 @@ import { FcAbout } from "react-icons/fc";
 const Skills = () => {
   return (
     <>
-      <div className=' relative w-full h-screen scroll-smooth   '>
+      <div id='skills' className=' relative w-full h-screen scroll-smooth   '>
         {/* <img className="absolute w-20 h-20 z-30 right-1 "
           alt=""
           src="/dot.png"
@@ -24,35 +24,35 @@ const Skills = () => {
           <h1 className='absolute bottom-[15%] text-xl font-semibold text-white'>HTML</h1>
         </div>
 
-        <div className='absolute w-[10%] h-[20%] bg-[#8894a581] top-[25%] left-[24%] rounded-xl flex justify-center '>
+        <div className='absolute w-[10%] h-[20%] bg-[#8894a581] top-[25%] left-[24%] rounded-xl flex justify-center hover:scale-110 duration-300'>
           <img
           className='absolute h-20 w-22 my-2 ' 
           src='/CSS.png'/>
           <h1 className='absolute bottom-[15%] text-xl font-semibold text-white'>CSS</h1>
         </div>
 
-        <div className='absolute w-[10%] h-[20%] bg-[#8894a581] top-[25%] left-[36%] rounded-xl flex justify-center '>
+        <div className='absolute w-[10%] h-[20%] bg-[#8894a581] top-[25%] left-[36%] rounded-xl flex justify-center hover:scale-110 duration-300'>
           <img
           className='absolute h-20 w-22 my-2 ' 
           src='/JS.png'/>
           <h1 className='absolute bottom-[15%] text-xl font-semibold text-white'>JavaScrpt</h1>
         </div>
 
-        <div className='absolute w-[10%] h-[20%] bg-[#8894a581] top-[50%] left-[12%] rounded-xl flex justify-center '>
+        <div className='absolute w-[10%] h-[20%] bg-[#8894a581] top-[50%] left-[12%] rounded-xl flex justify-center hover:scale-110 duration-300'>
           <img
           className='absolute h-20 w-22 my-2' 
           src='/React.png'/>
           <h1 className='absolute bottom-[15%] text-xl font-semibold text-white'>React</h1>
         </div>
 
-        <div className='absolute w-[10%] h-[20%] bg-[#8894a581] top-[50%] left-[24%] rounded-xl flex justify-center '>
+        <div className='absolute w-[10%] h-[20%] bg-[#8894a581] top-[50%] left-[24%] rounded-xl flex justify-center hover:scale-110 duration-300'>
           <img
           className='absolute h-20 w-22 my-2' 
           src='/Figma.png'/>
           <h1 className='absolute bottom-[15%] text-xl font-semibold text-white'>Figma</h1>
         </div>
 
-        <div className='absolute w-[10%] h-[20%] bg-[#8894a581] top-[50%] left-[36%] rounded-xl flex justify-center '>
+        <div className='absolute w-[10%] h-[20%] bg-[#8894a581] top-[50%] left-[36%] rounded-xl flex justify-center hover:scale-110 duration-300'>
           <img
           className='absolute h-16 w-22 my-2' 
           src='/Tailwind.png'/>
@@ -64,7 +64,7 @@ const Skills = () => {
           className='' 
           src='/Settings.png'/>
         <h4 className='text-white text-xl'>
-          sdfnnsdfnsdkjfnsdfnsdfndlfdlnlfds
+          Firstly worked on Html and Css and then applied JavaScrpt
         </h4>
         </div>
 

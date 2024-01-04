@@ -107,3 +107,22 @@ body::-webkit-scrollbar-thumb {
   background: linear-gradient(to bottom, #547DB4, #0000); /* Replace with your desired gradient colors */
   /* Additional background styles */
 }
+
+@keyframes slide-in {
+    from{
+      transform:translateY(-100%);
+    }
+    to{
+      transform:translateY(0);
+    }
+  }
+  #head{
+    animation: slide-in 2.5s ease-out;
+  }
+  .head1{
+    animation-delay: 5s;
+    animation: slide-in 2s ease-out ;
+  }
+  #fhead{
+    animation: slide-in 1s ease-out;
+  }
