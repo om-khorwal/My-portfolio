@@ -1,7 +1,5 @@
 "use client"
-import React, { useLayoutEffect, useRef } from 'react'
 import Footer from './Components/Footer'
-import gsap from 'gsap'
 import Skills from './Components/Skills'
 import About from './Components/About'
 import Projects from './Components/Projects'
@@ -26,7 +24,9 @@ function page() {
 //   })
   return (
     <>
-    <div className='bg-gradient-to-b from-[#547DB4] to-black relative h-fit w-full'>
+    <div className='bg-gradient-to-b from-[#000000] to-black relative h-fit w-full'>
+
+
 
     <Heroslide/>
     <Skills/>

@@ -22,7 +22,7 @@ const Heroslide = () => {
           alt=""
           src="/img.png"
         />
-        <img className="fixed w-20 h-20 z-30 right-1 "
+        <img className="dot fixed w-20 h-20 z-30 right-10 top-10   "
           alt=""
           src="/dot.png"
         />
@@ -84,7 +84,7 @@ const Heroslide = () => {
 
           </div>
         </div>
-        <div className=' flex justify-center items-center z-10 w-24 h-24 bg-transparent fixed top-[85%] left-[90%] rounded-full opacity-100 shadow-inner shadow-white hover:bg-white duration-500'>
+        <div className=' flex justify-center items-center z-10 w-20 h-20 bg-transparent fixed top-[75%] right-[3%] rounded-full opacity-100 shadow-inner shadow-white hover:hover:scale-125 hover:bg-white duration-500'>
           <a className="flex justify-center items-center" href="https://drive.google.com/file/d/1x0vLCRtqoZxFi0jfSS8NkNzIyRYq52qV/view?usp=sharing" target="_blank">
           <FaFileAlt className='absolute w-[50%] h-[60%] text-blue-400 ' />
           </a>
@@ -124,9 +124,9 @@ const Heroslide = () => {
           </a>
         </div>
 
-        <div className="absolute h-[1%] w-[0.5%] top-[95.58%] right-[49.69%] bottom-[3.04%] left-[49.54%] rounded-[50%] bg-white z-20 " />
+        {/* <div className="absolute h-[1%] w-[0.5%] top-[95.58%] right-[49.69%] bottom-[3.04%] left-[49.54%] rounded-[50%] bg-white z-20 " />
         <div className="absolute h-[1%] w-[0.5%] top-[95.58%] right-[52.47%] bottom-[3.04%] left-[46.76%] rounded-[50%] bg-white z-20" />
-        <div className="absolute h-[1%] w-[0.5%] top-[95.58%] right-[46.92%] bottom-[3.04%] left-[52.31%] rounded-[50%] bg-white z-20" />
+        <div className="absolute h-[1%] w-[0.5%] top-[95.58%] right-[46.92%] bottom-[3.04%] left-[52.31%] rounded-[50%] bg-white z-20" /> */}
 
       </div>
 

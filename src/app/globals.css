@@ -104,7 +104,7 @@ body::-webkit-scrollbar-thumb {
   margin: 0;
   padding: 0;
   position: fixed;
-  background: linear-gradient(to bottom, #547DB4, #0000); /* Replace with your desired gradient colors */
+  background: linear-gradient(to bottom, #343c47, #0000); /* Replace with your desired gradient colors */
   /* Additional background styles */
 }
 
@@ -125,4 +125,17 @@ body::-webkit-scrollbar-thumb {
   }
   #fhead{
     animation: slide-in 1s ease-out;
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .dot {
+    animation: spin 0.5s linear infinite; /* Decrease the duration to increase the speed */
   }
