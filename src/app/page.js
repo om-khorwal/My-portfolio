@@ -24,7 +24,7 @@ function page() {
 //   })
   return (
     <>
-    <div className='bg-gradient-to-b from-[#000000] to-black relative h-fit w-full'>
+    <div className='bg-gradient-to-b from-[#0547a8] to-black relative h-fit w-full'>
 
 
 

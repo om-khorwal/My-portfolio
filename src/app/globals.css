@@ -101,6 +101,7 @@ body::-webkit-scrollbar-thumb {
 
 *body, html {
   height: 100%;
+  width: 100%;
   margin: 0;
   padding: 0;
   position: fixed;
@@ -137,5 +138,5 @@ body::-webkit-scrollbar-thumb {
   }
   
   .dot {
-    animation: spin 0.5s linear infinite; /* Decrease the duration to increase the speed */
+    animation: spin 2s linear infinite; /* Decrease the duration to increase the speed */
   }
