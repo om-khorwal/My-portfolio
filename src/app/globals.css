@@ -104,7 +104,6 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
   margin: 0;
   padding: 0;
-  position: absolute;
   background: linear-gradient(to bottom, #343c47, #0000); /* Replace with your desired gradient colors */
   /* Additional background styles */
 }
