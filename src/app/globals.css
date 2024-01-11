@@ -104,9 +104,10 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
   margin: 0;
   padding: 0;
-  background: linear-gradient(to bottom, #343c47, #0000); /* Replace with your desired gradient colors */
-  /* Additional background styles */
+  background-color: black;
+  overflow-x: hidden;
 }
+
 
 @keyframes slide-in {
     from{
@@ -116,6 +117,7 @@ body::-webkit-scrollbar-thumb {
       transform:translateY(0);
     }
   }
+
   #head{
     animation: slide-in 2.5s ease-out;
   }
@@ -127,6 +129,7 @@ body::-webkit-scrollbar-thumb {
     animation: slide-in 1s ease-out;
   }
 
+  
   @keyframes spin {
     0% {
       transform: rotate(0deg);
@@ -137,5 +140,35 @@ body::-webkit-scrollbar-thumb {
   }
   
   .dot {
-    animation: spin 2s linear infinite; /* Decrease the duration to increase the speed */
+    animation: spin 1s linear infinite; /* Decrease the duration to increase the speed */
+  }
+  
+  @media (max-width:600px) {
+    #fhead{
+      font-size: 2.5rem;
+    }
+    .head1{
+      font-size: 2rem;
+    }
+    .sidebar{
+      width:10%;
+      height:fit-content;
+      margin: 0.5rem;
+    }
+    .innersidebar{
+      font-size: 1.8rem;
+    }
+    .dot{
+      right: 25%;
+    }
+    .herotext{
+      padding-right: 10%;
+    }
+    .contact{
+      width:40%;
+      position: relative;
+      top: 45%;
+      left: 50%;
+    }
+  
   }
