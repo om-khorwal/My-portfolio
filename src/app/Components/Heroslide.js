@@ -45,7 +45,7 @@ const Heroslide = () => {
         </div> */}
 
 
-        <div className='sidebar z-10 fixed text-black font-bold bg-gradient-to-b from-[#000000] to-[#0652c3] items-center justify-center  w-20 h-[35%] top-[25%] m-8 rounded-full uppercase shadow-xl shadow-white'>
+        <div className='sidebar z-30 fixed text-black font-bold bg-gradient-to-b from-[#000000] to-[#0652c3] items-center justify-center  w-20 h-[35%] top-[25%] m-8 rounded-full uppercase shadow-xl shadow-white'>
 
           <div className="  text-white h-full gap-5 w-full flex flex-col justify-center items-center py-5  ">
 
