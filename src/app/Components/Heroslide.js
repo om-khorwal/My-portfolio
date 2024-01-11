@@ -112,19 +112,19 @@ const Heroslide = () => {
           </button>
         </div>
 
-        <div className='  flex h-full w-full absolute bottom-5 '>
+        <div className=' socialhandle flex h-10 bottom-5 '>
 
           <a href="linkedin.com" target="_blank" rel="noreferrer">
-            <FaLinkedin className=" text-white absolute rounded-lg h-[5%] w-fit bottom-5  left-[20%] max-w-full  max-h-full object-cover z-20 hover:text-blue-900 hover:shadow-2xl hover:shadow-white hover:scale-125 duration-300 hover:bg-white " />
+            <FaLinkedin className=" social1 text-white absolute rounded-lg h-[5%] w-fit bottom-5  left-[20%] max-w-full  max-h-full object-cover z-20 hover:text-blue-900 hover:shadow-2xl hover:shadow-white hover:scale-125 duration-300 hover:bg-white " />
           </a>
 
           <a href="linkedin.com" target="_blank" rel="noreferrer">
-            <FaInstagram className=" text-white absolute rounded-xl h-[5%] w-fit bottom-5  left-[25%] max-w-full  max-h-full object-cover z-20 hover:text-pink-900 hover:shadow-2xl hover:shadow-white hover:scale-125 duration-300 hover:bg-white"
+            <FaInstagram className=" social2 text-white absolute rounded-xl h-[5%] w-fit bottom-5  left-[25%] max-w-full  max-h-full object-cover z-20 hover:text-pink-900 hover:shadow-2xl hover:shadow-white hover:scale-125 duration-300 hover:bg-white"
             />
           </a>
 
           <a href="linkedin.com" target="_blank" rel="noreferrer">
-            <FaGooglePlus className="text-white absolute rounded-full h-[5%] w-fit bottom-5  left-[30%] max-w-full  max-h-full object-cover hover:text-red-500  hover:shadow-2xl hover:shadow-white hover:scale-125 duration-300 hover:bg-white " />
+            <FaGooglePlus className="social3 text-white absolute rounded-full h-[5%] w-fit bottom-5  left-[30%] max-w-full  max-h-full object-cover hover:text-red-500  hover:shadow-2xl hover:shadow-white hover:scale-125 duration-300 hover:bg-white " />
           </a>
         </div>
 

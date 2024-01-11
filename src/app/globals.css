@@ -151,7 +151,7 @@ body::-webkit-scrollbar-thumb {
       font-size: 2rem;
     }
     .sidebar{
-      width:10%;
+      width:12%;
       height:fit-content;
       margin: 0.5rem;
     }
@@ -160,15 +160,38 @@ body::-webkit-scrollbar-thumb {
     }
     .dot{
       right: 25%;
+      opacity: 0;
     }
     .herotext{
-      padding-right: 10%;
+      padding-right: 5%;
+      top: 25%;
     }
     .contact{
       width:40%;
       position: relative;
-      top: 45%;
+      top: 35%;
       left: 50%;
+    }
+    .file{
+      position: relative;
+      left: 75%;
+      top: 80%;
+    }
+    .socialhandle{
+     top: 80%;
+     left: 10%;      
+    }
+    .social1{
+      top: 75%;
+      left: 5%;
+    }
+    .social2{
+      top: 82%;
+      left: 5%;
+    }
+    .social3{
+      top: 89%;
+      left: 5%;
     }
   
   }
