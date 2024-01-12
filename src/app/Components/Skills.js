@@ -66,7 +66,7 @@ const Skills = () => {
           className='' 
           src='/Settings.png'/>
         <h4 className='text-white text-xl'>
-          Firstly worked on Html and Css and then applied JavaScrpt
+          Created projects with Html & Css and applied Javascript GSAP library for functionalities. Other than these , I have hands on knowledege of React and Tailwind Css.
         </h4>
         </div>
 

@@ -29,13 +29,14 @@ const Projects = () => {
                 <div className=' project  w-full h-32   '>
                     <h4 className=' absolute text-3xl m-10'>Todo-list:-
                     <p className='text-xl font-exo'>
-                        Normal Todo list to add task
+                        Normal Todo list to add task.
+                        To add daily required task
                         </p>
                     </h4>
                 </div>
 
-                <div className=' project  w-full h-36 '>
-                    <h4 className=' absolute text-3xl m-10  '>MARWADI BAWARCHI:-
+                <div className=' project  w-full h-32 '>
+                    <h4 className=' absolute text-3xl m-10  '>Marwadi Bawarchi:-
                     <p className='text-xl font-exo'>
                             A web page which is built using html-css-js and Gsap (Javascript library) is used to create animation.
                         <a className='text-blue-400 font-semibold' target='blank' href='https://om-khorwal.github.io/Marwadi_Bawarchi/'> Visit here...</a>

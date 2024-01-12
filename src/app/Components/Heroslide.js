@@ -101,13 +101,13 @@ const Heroslide = () => {
             <p className=" head1 text-[3rem]  drop-shadow-[0px_10px_0px_rgba(0,0,0)]">I'm</p>
             <p className=" head1 text-[3rem] text-[#00a3ff] drop-shadow-[0px_10px_0px_rgba(0,0,0)] hover:scale-150">Om</p>
           </div>
-          <p id="fhead" className=" flex w-full text-[5rem] drop-shadow-[5px_10px_2px_rgba(0,0,0)] ">FRONT-END DEVELOPER</p>
+          <p id="fhead" className=" flex w-full text-[5rem] drop-shadow-[5px_6px_2px_rgba(0,0,0)] ">FRONT-END DEVELOPER</p>
         </div>
 
-        <div className="contact relative  h-[5%] w-[10%] z-20 justify-center items-center top-[40%] left-[69%] bg-white shadow-[10px_4px_5px_rgba(0,0,0.25)] hover:bg-blue-900 duration-300 hover:h-[7%]" >
+        <div className="reach relative  h-[5%] w-[10%] z-20 justify-center items-center top-[40%] left-[69%] bg-white shadow-[10px_4px_5px_rgba(0,0,0.25)] hover:bg-blue-900 duration-300 hover:h-[7%]" >
           <button className="  h-full w-full text-[1.7rem] font-exo bg-transparent text-black  inline-block hover:text-white duration-500">
             <a href="mailto:amankhorwal2002@gmail.com" target="_blank" rel="noopener noreferrer">
-              Contact Me
+              Reach Me
             </a>
           </button>
         </div>
