@@ -6,7 +6,7 @@ import { FaRegCopyright } from "react-icons/fa";
 function Main() {
     return (
         <>
-        <div id='footer' className='relative h-72 w-full'> 
+        <div id='footer' className='relative h-44 w-full'> 
             <div className=' footer absolute flex w-full h-40 bg-[#09093cdc] bottom-0 justify-center items-center shadow-inner shadow-blue-700'>
 
             <img
