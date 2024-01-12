@@ -241,12 +241,10 @@ body::-webkit-scrollbar-thumb {
       left: 55%;
     }
     .triangle{
-      top: 25%;
-      height: 25%;
-      width: 50%;
+      opacity: 0;
     }
     .project{
-      width: 60%;
+      width: 100%;
       margin-top: 0%;
 
     }
@@ -275,7 +273,6 @@ body::-webkit-scrollbar-thumb {
       align-content: center;
       font-size: larger;
       line-height: 0%;
-      height: 50%;
       margin: 0;
     }
     .aboutp h4{
@@ -286,6 +283,9 @@ body::-webkit-scrollbar-thumb {
       padding: 10%;
       font-size: medium;
       margin-top: 0%;
+    }
+    .line{
+      opacity: 0;
     }
     .details{
       justify-content: center;

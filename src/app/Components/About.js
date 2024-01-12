@@ -11,7 +11,7 @@ const About = () => {
                         </h4>
                     </div>
                 </h2>
-                <div className='absolute w-1 h-full bg-white shadow-xl shadow-white'></div>
+                <div className='line absolute w-1 h-full bg-white shadow-xl shadow-white'></div>
                 <h2 className=' text-5xl justify-center items-center  text-center '>Contact
                     <div className='details'>
                         <h4 className='text-xl w-full text-center mt-10 '>
