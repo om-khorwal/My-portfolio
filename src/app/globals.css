@@ -179,7 +179,8 @@ body::-webkit-scrollbar-thumb {
     }
     .socialhandle{
      top: 80%;
-     left: 10%;      
+     left: 10%;
+         
     }
     .social1{
       top: 75%;
@@ -193,5 +194,50 @@ body::-webkit-scrollbar-thumb {
       top: 89%;
       left: 5%;
     }
-  
+    .settings{
+      display: flex;
+      top: 70%;
+      left: 1%;
+      height: 20%;
+      width: 80%;
+      
+    }
+    .settings img:hover{
+      scale: 125%;
+      transition-duration: 500ms;
+    }
+   
+    .skills{
+      height: 17%;
+      width: 35%;
+    }
+    .skillset{
+      position: flex;
+      padding-bottom:15%;
+    }
+    #s1{
+      top: 1%;
+      left: 10%;
+    }
+    #s2{
+      top: 1%;
+      left: 55%;
+    }
+    #s3{
+      top: 25%;
+      left: 55%;
+    }
+    #s4{
+      top: 25%;
+      left: 10%;
+    }
+    #s5{
+      top: 50%;
+      left: 10%;
+    }
+    #s6{
+      top: 50%;
+      left: 55%;
+    }
+    
   }

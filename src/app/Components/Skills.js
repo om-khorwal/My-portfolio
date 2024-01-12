@@ -16,50 +16,52 @@ const Skills = () => {
           src="/dot.png"
         /> */}
        
+       <div className='skillset'>
 
-        <div className='absolute w-[10%] h-[20%] bg-[#8894a581] top-[25%] left-[12%] rounded-xl flex justify-center hover:scale-110 duration-300 '>
+        <div id='s1' className='skills absolute w-[10%] h-[20%] bg-[#8894a581] top-[25%] left-[12%] rounded-xl flex justify-center hover:scale-110 duration-300 '>
           <img
           className='absolute h-20 w-22 my-2' 
           src='/html.png'/>
           <h1 className='absolute bottom-[15%] text-xl font-semibold text-white'>HTML</h1>
         </div>
 
-        <div className='absolute w-[10%] h-[20%] bg-[#8894a581] top-[25%] left-[24%] rounded-xl flex justify-center hover:scale-110 duration-300'>
+        <div id='s2' className='skills absolute w-[10%] h-[20%] bg-[#8894a581] top-[25%] left-[24%] rounded-xl flex justify-center hover:scale-110 duration-300'>
           <img
           className='absolute h-20 w-22 my-2 ' 
           src='/CSS.png'/>
           <h1 className='absolute bottom-[15%] text-xl font-semibold text-white'>CSS</h1>
         </div>
 
-        <div className='absolute w-[10%] h-[20%] bg-[#8894a581] top-[25%] left-[36%] rounded-xl flex justify-center hover:scale-110 duration-300'>
+        <div id='s3' className='skills absolute w-[10%] h-[20%] bg-[#8894a581] top-[25%] left-[36%] rounded-xl flex justify-center hover:scale-110 duration-300'>
           <img
           className='absolute h-20 w-22 my-2 ' 
           src='/JS.png'/>
           <h1 className='absolute bottom-[15%] text-xl font-semibold text-white'>JavaScrpt</h1>
         </div>
 
-        <div className='absolute w-[10%] h-[20%] bg-[#8894a581] top-[50%] left-[12%] rounded-xl flex justify-center hover:scale-110 duration-300'>
+        <div id='s4' className='skills absolute w-[10%] h-[20%] bg-[#8894a581] top-[50%] left-[12%] rounded-xl flex justify-center hover:scale-110 duration-300'>
           <img
           className='absolute h-20 w-22 my-2' 
           src='/React.png'/>
           <h1 className='absolute bottom-[15%] text-xl font-semibold text-white'>React</h1>
         </div>
 
-        <div className='absolute w-[10%] h-[20%] bg-[#8894a581] top-[50%] left-[24%] rounded-xl flex justify-center hover:scale-110 duration-300'>
+        <div id='s5' className='skills absolute w-[10%] h-[20%] bg-[#8894a581] top-[50%] left-[24%] rounded-xl flex justify-center hover:scale-110 duration-300'>
           <img
           className='absolute h-20 w-22 my-2' 
           src='/Figma.png'/>
           <h1 className='absolute bottom-[15%] text-xl font-semibold text-white'>Figma</h1>
         </div>
 
-        <div className='absolute w-[10%] h-[20%] bg-[#8894a581] top-[50%] left-[36%] rounded-xl flex justify-center hover:scale-110 duration-300'>
+        <div id='s6' className='skills absolute w-[10%] h-[20%] bg-[#8894a581] top-[50%] left-[36%] rounded-xl flex justify-center hover:scale-110 duration-300'>
           <img
           className='absolute h-16 w-22 my-2' 
           src='/Tailwind.png'/>
           <h1 className='absolute bottom-[15%] text-xl font-semibold text-white'>Tailwind</h1>
         </div>
+        </div>
 
-        <div className=' relative w-1/4 h-1/2 m-2 left-[60%] top-24 justify-center text-center '>
+        <div className='settings relative w-1/4 h-1/2 m-2 left-[60%] top-24 justify-center text-center '>
         <img
           className='' 
           src='/Settings.png'/>
