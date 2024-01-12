@@ -101,7 +101,7 @@ const Heroslide = () => {
             <p className=" head1 text-[3rem]  drop-shadow-[0px_10px_0px_rgba(0,0,0)]">I'm</p>
             <p className=" head1 text-[3rem] text-[#00a3ff] drop-shadow-[0px_10px_0px_rgba(0,0,0)] hover:scale-150">Om</p>
           </div>
-          <p id="fhead" className=" flex w-full text-[5rem] drop-shadow-[5px_6px_2px_rgba(0,0,0)] ">FRONT-END DEVELOPER</p>
+          <p id="fhead" className=" flex w-full text-[4.5rem] drop-shadow-[5px_6px_2px_rgba(0,0,0)] ">FRONT-END DEVELOPER</p>
         </div>
 
         <div className="reach relative  h-[5%] w-[10%] z-20 justify-center items-center top-[40%] left-[69%] bg-white shadow-[10px_4px_5px_rgba(0,0,0.25)] hover:bg-blue-900 duration-300 hover:h-[7%]" >

@@ -19,6 +19,7 @@ const Projects = () => {
                         </p>
                     </h4>
                 </div>
+
                 <div className=' project  w-full h-32   '>
                     <h4 className=' absolute text-3xl m-10'>Docs webpage:-
                     <p className='text-xl font-exo'>
@@ -26,6 +27,7 @@ const Projects = () => {
                         </p>
                     </h4>
                 </div>
+                
                 <div className=' project  w-full h-32   '>
                     <h4 className=' absolute text-3xl m-10'>Todo-list:-
                     <p className='text-xl font-exo'>
@@ -43,6 +45,7 @@ const Projects = () => {
                         </p>
                     </h4>
                 </div>
+
                 </div>
 
             </div>
