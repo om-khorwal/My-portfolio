@@ -30,13 +30,13 @@ body {
 } */
 body::-webkit-scrollbar {
   display: block;
-  width: 8px;
+  width: 5px;
   background: #063bcc;
 }
 body::-webkit-scrollbar-thumb {
   background-color: #fff;
 
-  border-radius: 50px;
+  border-radius: 20px;
 }
 
 /* *{
@@ -247,7 +247,7 @@ body::-webkit-scrollbar-thumb {
     }
     .project{
       width: 60%;
-      height: 10%;
+      margin-top: 0%;
 
     }
     .project h4 {
@@ -255,11 +255,58 @@ body::-webkit-scrollbar-thumb {
     }
     .project p {
       font-size: small;
-      line-height: 100%; 
+      line-height: 130%;
     }
     .pblock{
-     top: 25%;
+     position: relative;
+     justify-content: center;
+     align-items: center;
+     margin-top: 25%;
     }
-
+    .about{
+      display: block;
+      justify-content: center;
+      position: relative;
+      top: 0%;
+    }
+    .about h2{
+      justify-content: center;
+      text-align: center;
+      align-content: center;
+      font-size: larger;
+      line-height: 0%;
+      height: 50%;
+      margin: 0;
+    }
+    .aboutp h4{
+      justify-content: center;
+      text-align: center;
+      align-content: center;
+      width: 100%;
+      padding: 10%;
+      font-size: medium;
+      margin-top: 0%;
+    }
+    .details{
+      justify-content: center;
+      text-align: center;
+      align-content: center;
+      width: 100%;
+      font-size: medium;
+    }
+    .footer img{
+      width: 10%;
+      height: 50%;
+      left: 10%;
+    }
+    .footer h2,h4{
+      font-size: large;
+    }
+    .footer h4{
+      font-size: smaller;
+      top: 75%;
+      left: 27%;
+      width: fit-content;
+    }
     
   }
