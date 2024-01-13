@@ -6,7 +6,6 @@ import Projects from './Components/Projects'
 import Heroslide from './Components/Heroslide'
 
 
-
 function page() {
 //   const comp = useRef(null)
 //   useLayoutEffect(()=>{
