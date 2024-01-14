@@ -61,11 +61,11 @@ const Skills = () => {
         </div>
         </div>
 
-        <div className='settings relative w-1/4 h-1/2 m-2 left-[60%] top-24 justify-center text-center '>
+        <div className='settings relative w-1/4 h-fit m-2 left-[60%] top-24 justify-center text-center '>
         <img
           className='' 
           src='/Settings.png'/>
-        <h4 className='text-white text-xl'>
+        <h4 className='text-white text-base'>
           Created projects with Html & Css and applied Javascript GSAP library for functionalities. Other than these , I have hands on knowledege of React and Tailwind Css.
         </h4>
         </div>
