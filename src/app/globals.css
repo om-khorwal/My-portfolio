@@ -104,6 +104,7 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
   margin: 0;
   padding: 0;
+  background-color: #2b304d;
   overflow-x: hidden;
 }
 
