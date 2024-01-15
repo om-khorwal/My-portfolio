@@ -157,7 +157,7 @@ body::-webkit-scrollbar-thumb {
       margin: 0.5rem;
       display: flex;
       left: 23%;
-      top: 88%;
+      top: 85%;
       box-shadow: none;
       align-items: center;
       padding: 1%;
@@ -349,7 +349,7 @@ body::-webkit-scrollbar-thumb {
       text-align: center;
       align-content: center;
       width: 100%;
-      font-size: medium;
+      font-size: small;
       margin-top: 0%;
     }
    .footer{
@@ -368,7 +368,7 @@ body::-webkit-scrollbar-thumb {
    .thunder{
     top: 15%;
     position: absolute;
-    font-size: large;
+    font-size: larger;
     display: flex;
     justify-content: start;
     align-items: start;
@@ -380,13 +380,12 @@ body::-webkit-scrollbar-thumb {
       display: flex;
       position: absolute;
       width: 100%;
-      justify-content: start;
-      height: -moz-fit-content;
       height: fit-content;
       align-items: center;
       left: 0;
       justify-content: center;
       bottom: 5%;
+      font-size: small;
   }
    .footersocial{
     display: none;
