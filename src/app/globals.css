@@ -219,14 +219,14 @@ body::-webkit-scrollbar-thumb {
       justify-content: center;
       align-items: center;
       top: 70%;
-      height: 20%;
+      height: 30%;
       left: 2.5%;
       width: 90%;
       margin-top: 40%;
       margin-bottom: 40%;
       border: 1px solid white;
-      padding: 2%;
-      border-radius: 2rem;
+      padding: 1%;
+      border-radius: 1rem;
     }
     .settings img:hover{
       scale: 125%;

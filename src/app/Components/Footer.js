@@ -3,6 +3,7 @@ import { FaRegCopyright } from "react-icons/fa";
 import { FaGooglePlus } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
+import { AiFillThunderbolt } from "react-icons/ai";
 
 
 function Main() {
@@ -13,10 +14,7 @@ function Main() {
                 <div className='footer relative w-1/2 h-full '>
 
                     <div className=' mobthunder flex absolute h-full w-full justify-start left-10 items-center '>
-                        <img
-                            className='flex w-10 h-20 justify-center items-center '
-                            src='/thunder.png' />
-                        <h2 className='thunder text-3xl text-white'>THUNDER</h2>
+                        <h2 className='thunder text-3xl text-white flex justify-center items-center h-full'>THU<AiFillThunderbolt className='text-yellow-400'/>DER</h2>
                     </div>
                     <h4 className='right flex absolute h-fit w-1/2 justify-start left-10 bottom-5 items-center text-white'> ALL RIGHTS RESERVED  <FaRegCopyright /> THUNDER 2024 </h4>
 
