@@ -334,15 +334,11 @@ body::-webkit-scrollbar-thumb {
       display: none;
     }
     .contact{
+      display: block;
       justify-content: center;
-      text-align: center;
-      align-content: center;
+      position: relative;
+      top: 10%;
       font-size: larger;
-      line-height: 0%;
-      margin-top: 20%;
-      margin-bottom: 10%;
-      font-family: monospace;
-
     }
     .details h4{
       justify-content: center;
