@@ -140,7 +140,7 @@ body::-webkit-scrollbar-thumb {
   }
   
   .dot {
-    animation: spin 1s linear infinite; /* Decrease the duration to increase the speed */
+    animation: spin 2s linear infinite; /* Decrease the duration to increase the speed */
   }
   
   @media (max-width:600px) {
@@ -365,6 +365,12 @@ body::-webkit-scrollbar-thumb {
     left: 0;
     margin-left: 5%;
     }
+    .herothunder {
+    width: 100%;
+    display: flex;
+    left: 0;
+    margin-left: 5%;
+}
    .thunder{
     top: 15%;
     position: absolute;

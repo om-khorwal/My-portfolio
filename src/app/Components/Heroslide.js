@@ -1,6 +1,7 @@
 import { FaGooglePlus } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
+import { AiFillThunderbolt } from "react-icons/ai";
 
 import { FaFileAlt } from "react-icons/fa";
 
@@ -13,14 +14,14 @@ const Heroslide = () => {
     <>
 
       <div id='home' className=' relative h-screen w-full' >
-        
+
         {/* <div className="flex w-full h-[60%] justify-center ">
         <img className="w-16 md:w-32 lg:w-48 "
           alt=""
           src="/img.png"
           />
         </div> */}
-        
+
         {/* <img className="dot fixed w-20 h-20 z-30 right-10 top-10   "
           alt=""
           src="/dot.png"
@@ -39,11 +40,14 @@ const Heroslide = () => {
         </div> */}
 
 
-    
+
         <div className='file flex justify-center items-center z-10 w-20 h-20 bg-transparent fixed top-[85%] right-[3%] rounded-full opacity-100 shadow-inner shadow-[#efab74] hover:hover:scale-125 hover:bg-[#efab74] duration-500'>
           <a className="flex justify-center items-center" href="https://drive.google.com/file/d/1x0vLCRtqoZxFi0jfSS8NkNzIyRYq52qV/view?usp=sharing" target="_blank">
             <FaFileAlt className='absolute w-[50%] h-[60%] text-[#ffff]' />
           </a>
+        </div>
+        <div className=' herothunder flex absolute top-5 justify-start left-7  '>
+          <h2 className=' thunder text-3xl text-white flex drop-shadow-[5px_6px_2px_rgba(0,0,0)] hover:scale-[110%] duration-300'> THU <AiFillThunderbolt className='dot text-yellow-400 hover:-rotate-180 duration-300' />DER</h2>
         </div>
 
 

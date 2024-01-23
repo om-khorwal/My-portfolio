@@ -14,7 +14,7 @@ const About = () => {
             </div>
             {/* <div className='line absolute w-1 h-full bg-white shadow-xl shadow-white'></div> */}
             <div className='details absolute justify-around w-full top-[60%] '>
-                <h2 className=' contact text-5xl justify-center items-center text-center font-mono  '>Contact
+                <div className=' contact text-5xl justify-center items-center text-center font-mono  '>Contact
                     <h4 className='text-xl w-full text-center mt-10'>
                         Email: amankhorwal2002@gmail.com
                     </h4>
@@ -24,7 +24,7 @@ const About = () => {
                     <h4 className='text-xl w-full text-center '>
                         <a href='https://www.linkedin.com/in/om-k-698281129/' target='_blank'> Linkedin: om-khorwal</a>
                     </h4>
-                </h2>
+                </div>
             </div>
 
         </div>
