@@ -339,6 +339,8 @@ body::-webkit-scrollbar-thumb {
       position: relative;
       top: 10%;
       font-size: larger;
+      margin-top: 20%;
+      margin-bottom: 10%;
     }
     .details h4{
       justify-content: center;
